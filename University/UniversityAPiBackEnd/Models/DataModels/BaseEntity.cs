@@ -1,12 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace UniversityAPiBackEnd.Models.DataModels
 {
+    [Table("baseentity")]
     public class BaseEntity
     {
-        [Required]
-        [Key]
-
         public int Id { get; set; }
         public string CreatedBy { get; set; } = string.Empty;
 
@@ -20,5 +19,6 @@ namespace UniversityAPiBackEnd.Models.DataModels
         public DateTime? DeletedAt { get; set; }
 
         public bool IsDeleted { get; set; } = false;
+
     }
 }

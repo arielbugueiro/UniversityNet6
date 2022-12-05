@@ -10845,26 +10845,28 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
+      "Microsoft.VisualStudio.Web.CodeGeneration.Core >= 6.0.10",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.10",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ariel\\.nuget\\packages\\": {}
+    "C:\\Users\\ariel.bugueiro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ariel\\Desktop\\ProyectNet\\University\\UniversityAPiBackEnd\\UniversityAPiBackEnd.csproj",
+      "projectUniqueName": "C:\\Users\\ariel.bugueiro\\Desktop\\ProyectNet\\University\\UniversityAPiBackEnd\\UniversityAPiBackEnd.csproj",
       "projectName": "UniversityAPiBackEnd",
-      "projectPath": "C:\\Users\\Ariel\\Desktop\\ProyectNet\\University\\UniversityAPiBackEnd\\UniversityAPiBackEnd.csproj",
-      "packagesPath": "C:\\Users\\Ariel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ariel\\Desktop\\ProyectNet\\University\\UniversityAPiBackEnd\\obj\\",
+      "projectPath": "C:\\Users\\ariel.bugueiro\\Desktop\\ProyectNet\\University\\UniversityAPiBackEnd\\UniversityAPiBackEnd.csproj",
+      "packagesPath": "C:\\Users\\ariel.bugueiro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ariel.bugueiro\\Desktop\\ProyectNet\\University\\UniversityAPiBackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ariel.bugueiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10890,6 +10892,12 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[7.0.0, )"
@@ -10899,6 +10907,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.0, )"
+          },
+          "Microsoft.VisualStudio.Web.CodeGeneration.Core": {
+            "target": "Package",
+            "version": "[6.0.10, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",

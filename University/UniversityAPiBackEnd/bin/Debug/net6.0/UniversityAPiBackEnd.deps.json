@@ -8,8 +8,10 @@
     ".NETCoreApp,Version=v6.0": {
       "UniversityAPiBackEnd/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.0",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "6.0.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.10",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
