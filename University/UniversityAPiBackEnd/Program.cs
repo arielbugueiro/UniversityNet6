@@ -13,6 +13,10 @@ var connectionString = builder.Configuration.GetConnectionString("ConnectionDB")
 //Add Context
 builder.Services.AddDbContext<UniversityDbContext>(options => options.UseSqlServer(connectionString));
 
+//Add Services of JWT Authorization
+//builder.Services.AddJwtTokenServices(builder.Configuration);
+
+
 
 #endregion
 
@@ -21,6 +25,8 @@ builder.Services.AddDbContext<UniversityDbContext>(options => options.UseSqlServ
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
+//Config Swagger to take care of Authorization of JWT 
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();

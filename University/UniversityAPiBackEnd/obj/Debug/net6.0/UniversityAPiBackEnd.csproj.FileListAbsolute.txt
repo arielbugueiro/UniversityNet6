@@ -574,3 +574,4 @@ C:\Users\ariel.bugueiro\Desktop\ProyectNet\University\UniversityAPiBackEnd\obj\D
 C:\Users\ariel.bugueiro\Desktop\ProyectNet\University\UniversityAPiBackEnd\obj\Debug\net6.0\UniversityAPiBackEnd.pdb
 C:\Users\ariel.bugueiro\Desktop\ProyectNet\University\UniversityAPiBackEnd\obj\Debug\net6.0\UniversityAPiBackEnd.genruntimeconfig.cache
 C:\Users\ariel.bugueiro\Desktop\ProyectNet\University\UniversityAPiBackEnd\obj\Debug\net6.0\ref\UniversityAPiBackEnd.dll
+C:\Users\ariel.bugueiro\Desktop\ProyectNet\University\UniversityAPiBackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
