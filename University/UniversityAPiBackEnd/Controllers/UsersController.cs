@@ -106,16 +106,16 @@ namespace UniversityAPiBackEnd.Controllers
             return _context.Users.Any(user => user.Id == id);
         }
 
+        //[HttpGet]
+        //public void UserByEmail()
+        //{
+        //    var UserEmail = from userEmail in _context.Users where userEmail.Email != null select userEmail;
 
-        public void UserByEmail()
-        {
-            var UserEmail = from userEmail in _context.Users where userEmail.Email != null select userEmail;
-
-            foreach (var emailUser in UserEmail)
-            {
-                Console.WriteLine(emailUser);
-            }
-        }
+        //    foreach (var emailUser in UserEmail)
+        //    {
+        //        Console.WriteLine(emailUser);
+        //    }
+        //}
 
   
     }

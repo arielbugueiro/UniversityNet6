@@ -10,8 +10,8 @@ using UniversityAPiBackEnd.Models.DataModels;
 
 namespace UniversityAPiBackEnd.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class CategoriesController : ControllerBase
     {
         private readonly UniversityDbContext _context;
